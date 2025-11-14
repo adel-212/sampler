@@ -1,15 +1,15 @@
-# 🎧 Rendu Web Audio — Projet Web Audio API
+#  Rendu Web Audio — Projet Web Audio API
 
-## 📘 Présentation
+##  Présentation
 
 Ce projet met en pratique la **Web Audio API** à travers plusieurs exercices interactifs autour du **traitement, de la visualisation et de la manipulation de sons** dans un navigateur web.  
 Il comprend notamment un **sampler complet** capable de charger des banques de sons (presets), de les visualiser sous forme de **waveform**, et de jouer des segments personnalisés avec **barres de découpe interactives (trim bars)** et **playhead animé**.
 
 ---
 
-## 🚀 Fonctionnalités principales
+##  Fonctionnalités principales
 
-### 🧩 Exercice 3 — Sampler avec Trim Bars & Waveform
+###  Exercice 3 — Sampler avec Trim Bars & Waveform
 
 - **Chargement dynamique de presets** via une API REST (`/api/presets`)
 - **Sélection du son** à partir du preset choisi
@@ -26,7 +26,7 @@ Il comprend notamment un **sampler complet** capable de charger des banques de s
 
 ---
 
-## 🧠 Architecture du projet
+##  Architecture du projet
 
 RenduWebAudio/
 │
@@ -55,7 +55,7 @@ RenduWebAudio/
 
 ---
 
-## 💾 API Node.js intégrée
+##  API Node.js intégrée
 
 ### Routes disponibles
 
@@ -70,9 +70,9 @@ Les sons sont servis statiquement depuis le dossier `public/presets/`.
 
 ---
 
-## 🧩 Fonctionnement technique (Ex3)
+##  Fonctionnement technique (Ex3)
 
-### 🎚️ Trim Bars
+###  Trim Bars
 
 - Deux barres verticales définissent les **points de début et de fin** du son.
 - Ces positions sont **mémorisées** (par URL du son) dans le navigateur.
